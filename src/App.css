@@ -1,3 +1,65 @@
+body{
+  font-family: Helvetica;
+  margin: auto;
+  padding: 10px;
+  background-image: url('https://wallpapercave.com/wp/wp5214591.jpg') 
+
+
+}
+
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+  font-size:25px;
+    color: orange;
+}
+
+h1{
+  font-family: Verdana;
+  font-size:40px;
+  color: white;
+  padding: 40px;
+  text-align: center;
+
+}
+h2{
+  font-family: Verdana;
+  font-size:25px;
+  padding: 30px;
+  color: white;
+  text-align: center;
+
+
+}
+
+label {
+  color: white;
+  padding-top:10px;
+  font-size:20px
+
+}
+
+input[type=text]{
+  transition: width 0.5s ease-in-out;
+  width: 150px;
+  padding: 8px;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+
+input[type=submit] {
+  font-family: Helvetica;
+  margin: 10px;
+  background-color: orange;
+  cursor: pointer;
+
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +98,56 @@
     transform: rotate(360deg);
   }
 }
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+fieldset {
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.55em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+}
+
+legend{
+  background-color: gray;
+  color: orange;
+  padding: 5px 10px;
+}
+caption{
+  color: orange;
+  caption-side:bottom;
+
+
+}
+
+label{
+  color: orange;
+
+}
+
+table td, table th {
+  border: collapse;
+  padding: 8px;
+}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+
